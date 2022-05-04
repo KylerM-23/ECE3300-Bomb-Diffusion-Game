@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Sat Apr 30 11:11:06 2022
+| Date         : Mon May  2 14:32:17 2022
 | Host         : DESKTOP-L16NRCS running 64-bit major release  (build 9200)
 | Command      : report_methodology -file Game_methodology_drc_routed.rpt -pb Game_methodology_drc_routed.pb -rpx Game_methodology_drc_routed.rpx
 | Design       : Game
@@ -23,13 +23,14 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 58
+             Violations found: 66
 +-----------+------------------+-------------------------------+------------+
 | Rule      | Severity         | Description                   | Violations |
 +-----------+------------------+-------------------------------+------------+
 | TIMING-17 | Critical Warning | Non-clocked sequential cell   | 45         |
 | LUTAR-1   | Warning          | LUT drives async reset alert  | 2          |
 | SYNTH-13  | Warning          | combinational multiplier      | 1          |
+| TIMING-16 | Warning          | Large setup violation         | 8          |
 | TIMING-18 | Warning          | Missing input or output delay | 8          |
 | TIMING-20 | Warning          | Non-clocked latch             | 2          |
 +-----------+------------------+-------------------------------+------------+
@@ -273,7 +274,47 @@ Related violations: <none>
 
 SYNTH-13#1 Warning
 combinational multiplier  
-Detected combinational multiplier in DSP instance nolabel_line51/time12.
+Detected combinational multiplier in DSP instance nolabel_line52/time12.
+Related violations: <none>
+
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -1.046 ns between nolabel_line52/number_reg[7]/C (clocked by sys_clk_pin) and nolabel_line52/time1_reg[0]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -1.046 ns between nolabel_line52/number_reg[7]/C (clocked by sys_clk_pin) and nolabel_line52/time1_reg[1]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -1.046 ns between nolabel_line52/number_reg[7]/C (clocked by sys_clk_pin) and nolabel_line52/time1_reg[2]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -1.046 ns between nolabel_line52/number_reg[7]/C (clocked by sys_clk_pin) and nolabel_line52/time1_reg[3]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -1.082 ns between nolabel_line52/number_reg[7]/C (clocked by sys_clk_pin) and nolabel_line52/time1_reg[4]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -1.082 ns between nolabel_line52/number_reg[7]/C (clocked by sys_clk_pin) and nolabel_line52/time1_reg[5]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -1.082 ns between nolabel_line52/number_reg[7]/C (clocked by sys_clk_pin) and nolabel_line52/time1_reg[6]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -1.082 ns between nolabel_line52/number_reg[7]/C (clocked by sys_clk_pin) and nolabel_line52/time1_reg[7]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-18#1 Warning
@@ -323,7 +364,7 @@ Related violations: <none>
 
 TIMING-20#2 Warning
 Non-clocked latch  
-The latch nolabel_line47/win_reg cannot be properly analyzed as its control pin nolabel_line47/win_reg/G is not reached by a timing clock
+The latch nolabel_line48/win_reg cannot be properly analyzed as its control pin nolabel_line48/win_reg/G is not reached by a timing clock
 Related violations: <none>
 
 

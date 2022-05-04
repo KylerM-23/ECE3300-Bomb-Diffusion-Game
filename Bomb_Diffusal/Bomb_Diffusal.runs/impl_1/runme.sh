@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.runs/impl_1'
+HD_PWD='C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

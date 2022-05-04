@@ -43,6 +43,7 @@ module Game(CLK100MHZ, RESET, START_BUTTON, SW, LED, C, AN, AUD_PWM, AUD_SD, Gam
         
         Game1(CLK2HZ, GameEnable[1], RESET, SW, Random, LED, GWin[0]);
         Game2(CLKSLOW, GameEnable[2], RESET, BUTTON, GameConfig, CodeDisplay, UserDisplay, GWin[1]);
+        //Game3(CLK100MHZ, GameEnable[3], RESET, SW, GameConfig, AP_0, ASD_0, GWin[2]);
         
         Game_FSM(CLK100MHZ, RESET, Ready, GameOver, GWin, GameWin, GameState);
     
@@ -53,6 +54,30 @@ module Game(CLK100MHZ, RESET, START_BUTTON, SW, LED, C, AN, AUD_PWM, AUD_SD, Gam
         
 endmodule
 
+module Game3(
+    input clk, enable, reset,
+    input [5:0] random,
+    input [5:0] in,
+    output audOut, audSD
+    );
+    
+    reg win;
+    
+    MorsePlayer MP(random/10, random%10, clock, enable, audOut, audSD);
+    
+    always @ (posedge clk, posedge reset)
+        begin
+            if (reset)
+                begin
+                    win = 0;
+                end
+            else
+                begin
+                    if (in == random)
+                        win = 1;
+                end
+        end
+endmodule
 
 module Game_FSM (clk, r, ready, gameover, gwin, win, state_reg);
     localparam [2:0] Start = 3'b000, G1 = 3'b001, G2 = 3'b010, G3  = 3'b011, GameOver = 3'b100, GameWin = 3'b101;

@@ -32,8 +32,14 @@ module Random_Number_Generator_FMSD (clk, r, num, num_reg, In, R);
     
     output reg [5:0] num; 
     
-    always @(posedge clk)
+    always @(posedge clk, posedge r)
         begin
+            if (R)
+                begin
+                    num <= num_reg;
+                    seed <= seed_reg;
+                end
+            
             if (r)
                 begin
                     state_reg <= Start;
@@ -43,12 +49,6 @@ module Random_Number_Generator_FMSD (clk, r, num, num_reg, In, R);
                     seed <= 0;
                     R <= 0;
                     num <= 0;
-                end
-            
-            else if (R)
-                begin
-                    num <= num_reg;
-                    seed <= seed_reg;
                 end
             
             else
@@ -62,7 +62,6 @@ module Random_Number_Generator_FMSD (clk, r, num, num_reg, In, R);
     
     always@*
         begin
-            
             state_next = state_reg;
             num_next = num_reg;
             seed_next = seed_reg;

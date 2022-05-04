@@ -15,92 +15,92 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 24068 
-WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Games.v:58]
-WARNING: [Synth 8-992] CLK100MHZ is already implicitly declared earlier [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:16]
-WARNING: [Synth 8-992] MCount is already implicitly declared earlier [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:29]
-WARNING: [Synth 8-992] SCount is already implicitly declared earlier [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:29]
-WARNING: [Synth 8-992] GameWin is already implicitly declared earlier [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:38]
-WARNING: [Synth 8-992] GameOver is already implicitly declared earlier [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:38]
-WARNING: [Synth 8-992] Ready is already implicitly declared earlier [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:40]
+INFO: Helper process launched with PID 14084 
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Games.v:58]
+WARNING: [Synth 8-992] CLK100MHZ is already implicitly declared earlier [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:16]
+WARNING: [Synth 8-992] MCount is already implicitly declared earlier [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:29]
+WARNING: [Synth 8-992] SCount is already implicitly declared earlier [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:29]
+WARNING: [Synth 8-992] GameWin is already implicitly declared earlier [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:38]
+WARNING: [Synth 8-992] GameOver is already implicitly declared earlier [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:38]
+WARNING: [Synth 8-992] Ready is already implicitly declared earlier [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:40]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 814.621 ; gain = 181.227
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 813.934 ; gain = 183.027
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'Game' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:3]
-INFO: [Synth 8-6157] synthesizing module 'Random_Number_Gen' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Random_Number_Gen.v:3]
-INFO: [Synth 8-6157] synthesizing module 'RisingEdge' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:4]
+INFO: [Synth 8-6157] synthesizing module 'Game' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Random_Number_Gen' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Random_Number_Gen.v:3]
+INFO: [Synth 8-6157] synthesizing module 'RisingEdge' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:4]
 	Parameter zero bound to: 2'b00 
 	Parameter edg bound to: 2'b01 
 	Parameter one bound to: 2'b10 
-INFO: [Synth 8-6155] done synthesizing module 'RisingEdge' (1#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:4]
-INFO: [Synth 8-6157] synthesizing module 'Random_Number_Generator_FMSD' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Random_Number_Gen.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'RisingEdge' (1#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:4]
+INFO: [Synth 8-6157] synthesizing module 'Random_Number_Generator_FMSD' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Random_Number_Gen.v:14]
 	Parameter Start bound to: 2'b00 
 	Parameter Seed bound to: 2'b01 
 	Parameter LFSR bound to: 2'b10 
 	Parameter Ready bound to: 2'b11 
-INFO: [Synth 8-226] default block is never used [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Random_Number_Gen.v:71]
-WARNING: [Synth 8-6014] Unused sequential element seed_reg was removed.  [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Random_Number_Gen.v:43]
-INFO: [Synth 8-6155] done synthesizing module 'Random_Number_Generator_FMSD' (2#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Random_Number_Gen.v:14]
-INFO: [Synth 8-6155] done synthesizing module 'Random_Number_Gen' (3#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Random_Number_Gen.v:3]
-INFO: [Synth 8-6157] synthesizing module 'ClkSignal1Hz' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Clocks.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'ClkSignal1Hz' (4#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Clocks.v:3]
-INFO: [Synth 8-6157] synthesizing module 'ClkSignalSlow' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Clocks.v:55]
-INFO: [Synth 8-6155] done synthesizing module 'ClkSignalSlow' (5#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Clocks.v:55]
-INFO: [Synth 8-6157] synthesizing module 'ClkSignal2Hz' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Clocks.v:29]
-INFO: [Synth 8-6155] done synthesizing module 'ClkSignal2Hz' (6#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Clocks.v:29]
-INFO: [Synth 8-6157] synthesizing module 'ClkSignal400Hz' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Clocks.v:82]
-INFO: [Synth 8-6155] done synthesizing module 'ClkSignal400Hz' (7#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Clocks.v:82]
-WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:24]
-WARNING: [Synth 8-7023] instance 'nolabel_line24' of module 'RisingEdge' has 4 connections declared, but only 3 given [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:24]
-INFO: [Synth 8-6157] synthesizing module 'Timer' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Timer.v:3]
-INFO: [Synth 8-6157] synthesizing module 'LoadCheck' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Timer.v:15]
-INFO: [Synth 8-6155] done synthesizing module 'LoadCheck' (8#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Timer.v:15]
-INFO: [Synth 8-6157] synthesizing module 'DigitalClock' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:3]
-INFO: [Synth 8-6157] synthesizing module 'timecounter' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:15]
-WARNING: [Synth 8-5788] Register Count_reg in module timecounter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:25]
-WARNING: [Synth 8-5788] Register OutClock_reg in module timecounter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:34]
-INFO: [Synth 8-6155] done synthesizing module 'timecounter' (9#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:15]
-WARNING: [Synth 8-7023] instance 'nolabel_line11' of module 'timecounter' has 6 connections declared, but only 5 given [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:11]
-INFO: [Synth 8-6155] done synthesizing module 'DigitalClock' (10#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:3]
-INFO: [Synth 8-6157] synthesizing module 'AlarmHandler' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Alarm.v:3]
-WARNING: [Synth 8-6014] Unused sequential element active_reg was removed.  [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Alarm.v:14]
-INFO: [Synth 8-6155] done synthesizing module 'AlarmHandler' (11#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Alarm.v:3]
-WARNING: [Synth 8-3848] Net reset in module/entity Timer does not have driver. [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Timer.v:11]
-INFO: [Synth 8-6155] done synthesizing module 'Timer' (12#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Timer.v:3]
-INFO: [Synth 8-6157] synthesizing module 'SevenSegOutputHandler' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Handlers.v:4]
-INFO: [Synth 8-6157] synthesizing module 'counter3bit' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:101]
-INFO: [Synth 8-6155] done synthesizing module 'counter3bit' (13#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:101]
-INFO: [Synth 8-6157] synthesizing module 'decoder3to8' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:54]
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:60]
-INFO: [Synth 8-6155] done synthesizing module 'decoder3to8' (14#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:54]
-INFO: [Synth 8-6157] synthesizing module 'Bin2Displays' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:45]
-INFO: [Synth 8-6157] synthesizing module 'SevenSegController' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:40]
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:46]
-INFO: [Synth 8-6155] done synthesizing module 'SevenSegController' (15#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:40]
-WARNING: [Synth 8-689] width (32) of port connection 'X' does not match port width (6) of module 'SevenSegController' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:49]
-WARNING: [Synth 8-689] width (32) of port connection 'X' does not match port width (6) of module 'SevenSegController' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:50]
-INFO: [Synth 8-6155] done synthesizing module 'Bin2Displays' (16#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:45]
-INFO: [Synth 8-6157] synthesizing module 'Mux8' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:62]
-INFO: [Synth 8-6155] done synthesizing module 'Mux8' (17#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:62]
-INFO: [Synth 8-6155] done synthesizing module 'SevenSegOutputHandler' (18#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Handlers.v:4]
-INFO: [Synth 8-6157] synthesizing module 'Decoder_2_4' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:111]
-INFO: [Synth 8-6155] done synthesizing module 'Decoder_2_4' (19#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:111]
-INFO: [Synth 8-6157] synthesizing module 'Game1' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Games.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'Game1' (20#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Games.v:3]
-INFO: [Synth 8-6157] synthesizing module 'Game2' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Games.v:46]
-INFO: [Synth 8-6155] done synthesizing module 'Game2' (21#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Games.v:46]
-WARNING: [Synth 8-689] width (6) of port connection 'Random' does not match port width (4) of module 'Game2' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:45]
-INFO: [Synth 8-6157] synthesizing module 'Game_FSM' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:57]
+INFO: [Synth 8-226] default block is never used [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Random_Number_Gen.v:70]
+WARNING: [Synth 8-6014] Unused sequential element seed_reg was removed.  [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Random_Number_Gen.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'Random_Number_Generator_FMSD' (2#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Random_Number_Gen.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'Random_Number_Gen' (3#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Random_Number_Gen.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ClkSignal1Hz' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Clocks.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ClkSignal1Hz' (4#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Clocks.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ClkSignalSlow' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Clocks.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'ClkSignalSlow' (5#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Clocks.v:55]
+INFO: [Synth 8-6157] synthesizing module 'ClkSignal2Hz' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Clocks.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'ClkSignal2Hz' (6#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Clocks.v:29]
+INFO: [Synth 8-6157] synthesizing module 'ClkSignal400Hz' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Clocks.v:82]
+INFO: [Synth 8-6155] done synthesizing module 'ClkSignal400Hz' (7#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Clocks.v:82]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:24]
+WARNING: [Synth 8-7023] instance 'nolabel_line24' of module 'RisingEdge' has 4 connections declared, but only 3 given [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Timer' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Timer.v:3]
+INFO: [Synth 8-6157] synthesizing module 'LoadCheck' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Timer.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'LoadCheck' (8#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Timer.v:15]
+INFO: [Synth 8-6157] synthesizing module 'DigitalClock' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:3]
+INFO: [Synth 8-6157] synthesizing module 'timecounter' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:15]
+WARNING: [Synth 8-5788] Register Count_reg in module timecounter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:25]
+WARNING: [Synth 8-5788] Register OutClock_reg in module timecounter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'timecounter' (9#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:15]
+WARNING: [Synth 8-7023] instance 'nolabel_line11' of module 'timecounter' has 6 connections declared, but only 5 given [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'DigitalClock' (10#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:3]
+INFO: [Synth 8-6157] synthesizing module 'AlarmHandler' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Alarm.v:3]
+WARNING: [Synth 8-6014] Unused sequential element active_reg was removed.  [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Alarm.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'AlarmHandler' (11#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Alarm.v:3]
+WARNING: [Synth 8-3848] Net reset in module/entity Timer does not have driver. [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Timer.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'Timer' (12#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Timer.v:3]
+INFO: [Synth 8-6157] synthesizing module 'SevenSegOutputHandler' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Handlers.v:4]
+INFO: [Synth 8-6157] synthesizing module 'counter3bit' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:101]
+INFO: [Synth 8-6155] done synthesizing module 'counter3bit' (13#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:101]
+INFO: [Synth 8-6157] synthesizing module 'decoder3to8' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:54]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'decoder3to8' (14#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:54]
+INFO: [Synth 8-6157] synthesizing module 'Bin2Displays' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:45]
+INFO: [Synth 8-6157] synthesizing module 'SevenSegController' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:40]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'SevenSegController' (15#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:40]
+WARNING: [Synth 8-689] width (32) of port connection 'X' does not match port width (6) of module 'SevenSegController' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:49]
+WARNING: [Synth 8-689] width (32) of port connection 'X' does not match port width (6) of module 'SevenSegController' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:50]
+INFO: [Synth 8-6155] done synthesizing module 'Bin2Displays' (16#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:45]
+INFO: [Synth 8-6157] synthesizing module 'Mux8' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'Mux8' (17#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'SevenSegOutputHandler' (18#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Handlers.v:4]
+INFO: [Synth 8-6157] synthesizing module 'Decoder_2_4' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'Decoder_2_4' (19#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:111]
+INFO: [Synth 8-6157] synthesizing module 'Game1' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Games.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Game1' (20#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Games.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Game2' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Games.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'Game2' (21#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Games.v:46]
+WARNING: [Synth 8-689] width (6) of port connection 'Random' does not match port width (4) of module 'Game2' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:45]
+INFO: [Synth 8-6157] synthesizing module 'Game_FSM' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:82]
 	Parameter Start bound to: 3'b000 
 	Parameter G1 bound to: 3'b001 
 	Parameter G2 bound to: 3'b010 
 	Parameter G3 bound to: 3'b011 
 	Parameter GameOver bound to: 3'b100 
 	Parameter GameWin bound to: 3'b101 
-INFO: [Synth 8-6155] done synthesizing module 'Game_FSM' (22#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:57]
-INFO: [Synth 8-6157] synthesizing module 'GameOverSongPlayer' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/GameOverSound.v:43]
+INFO: [Synth 8-6155] done synthesizing module 'Game_FSM' (22#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:82]
+INFO: [Synth 8-6157] synthesizing module 'GameOverSongPlayer' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/GameOverSound.v:43]
 	Parameter clockFrequency bound to: 100000000 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'GameOverMusicSheet' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/GameOverSound.v:4]
+INFO: [Synth 8-6157] synthesizing module 'GameOverMusicSheet' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/GameOverSound.v:4]
 	Parameter SIXTEENTH bound to: 1 - type: integer 
 	Parameter EIGTH bound to: 2 - type: integer 
 	Parameter QUARTER bound to: 4 - type: integer 
@@ -137,17 +137,17 @@ INFO: [Synth 8-6157] synthesizing module 'GameOverMusicSheet' [C:/Users/Vking/De
 	Parameter A3 bound to: 227272 - type: integer 
 	Parameter B3 bound to: 202461 - type: integer 
 	Parameter Gb3 bound to: 240801 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'GameOverMusicSheet' (23#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/GameOverSound.v:4]
-INFO: [Synth 8-6155] done synthesizing module 'GameOverSongPlayer' (24#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/GameOverSound.v:43]
-INFO: [Synth 8-6157] synthesizing module 'AudioHandler' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Handlers.v:25]
-INFO: [Synth 8-6155] done synthesizing module 'AudioHandler' (25#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Handlers.v:25]
-WARNING: [Synth 8-3848] Net AP_0 in module/entity Game does not have driver. [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:50]
-WARNING: [Synth 8-3848] Net ASD_0 in module/entity Game does not have driver. [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:50]
-WARNING: [Synth 8-3848] Net ReadyRise in module/entity Game does not have driver. [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:18]
-INFO: [Synth 8-6155] done synthesizing module 'Game' (26#1) [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'GameOverMusicSheet' (23#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/GameOverSound.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'GameOverSongPlayer' (24#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/GameOverSound.v:43]
+INFO: [Synth 8-6157] synthesizing module 'AudioHandler' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Handlers.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'AudioHandler' (25#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Handlers.v:25]
+WARNING: [Synth 8-3848] Net AP_0 in module/entity Game does not have driver. [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:51]
+WARNING: [Synth 8-3848] Net ASD_0 in module/entity Game does not have driver. [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:51]
+WARNING: [Synth 8-3848] Net ReadyRise in module/entity Game does not have driver. [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'Game' (26#1) [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:3]
 WARNING: [Synth 8-3331] design Timer has unconnected port Ready
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 854.449 ; gain = 221.055
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 853.898 ; gain = 222.992
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -160,41 +160,41 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 854.449 ; gain = 221.055
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 853.898 ; gain = 222.992
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 854.449 ; gain = 221.055
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 853.898 ; gain = 222.992
 ---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/100t.xdc]
-Finished Parsing XDC File [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/100t.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/100t.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Game_propImpl.xdc].
+Parsing XDC File [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/100t.xdc]
+Finished Parsing XDC File [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/100t.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/100t.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Game_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/Game_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 997.105 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 997.441 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 997.105 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 997.441 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 997.105 ; gain = 363.711
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 997.441 ; gain = 366.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 997.105 ; gain = 363.711
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 997.441 ; gain = 366.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 997.105 ; gain = 363.711
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 997.441 ; gain = 366.535
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'RisingEdge'
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'Random_Number_Generator_FMSD'
@@ -202,7 +202,7 @@ INFO: [Synth 8-5546] ROM "out" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'Game_FSM'
 INFO: [Synth 8-5546] ROM "note" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "duration" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/GameOverSound.v:91]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/GameOverSound.v:91]
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
@@ -222,8 +222,8 @@ INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encod
                    Ready |                               11 |                               11
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'Random_Number_Generator_FMSD'
-WARNING: [Synth 8-327] inferring latch for variable 'out_reg' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:61]
-WARNING: [Synth 8-327] inferring latch for variable 'out_reg' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'out_reg' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/DigitalClock.v:61]
+WARNING: [Synth 8-327] inferring latch for variable 'out_reg' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/CommonComponents.v:47]
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
@@ -235,9 +235,9 @@ WARNING: [Synth 8-327] inferring latch for variable 'out_reg' [C:/Users/Vking/De
                 GameOver |                              101 |                              100
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'Game_FSM'
-WARNING: [Synth 8-327] inferring latch for variable 'win_reg' [C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:108]
+WARNING: [Synth 8-327] inferring latch for variable 'win_reg' [C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.srcs/sources_1/new/Game.v:133]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 997.105 ; gain = 363.711
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 997.441 ; gain = 366.535
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -461,9 +461,9 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-DSP Report: Generating DSP nolabel_line51/time12, operation Mode is: (A:0xf5e100)*B.
-DSP Report: operator nolabel_line51/time12 is absorbed into DSP nolabel_line51/time12.
-DSP Report: operator nolabel_line51/time12 is absorbed into DSP nolabel_line51/time12.
+DSP Report: Generating DSP nolabel_line52/time12, operation Mode is: (A:0xf5e100)*B.
+DSP Report: operator nolabel_line52/time12 is absorbed into DSP nolabel_line52/time12.
+DSP Report: operator nolabel_line52/time12 is absorbed into DSP nolabel_line52/time12.
 WARNING: [Synth 8-3332] Sequential element (nolabel_line24/FSM_sequential_state_reg_reg[1]) is unused and will be removed from module Game.
 WARNING: [Synth 8-3332] Sequential element (nolabel_line24/FSM_sequential_state_reg_reg[0]) is unused and will be removed from module Game.
 WARNING: [Synth 8-3332] Sequential element (nolabel_line33/nolabel_line16/out_reg[7]) is unused and will be removed from module Game.
@@ -503,7 +503,7 @@ WARNING: [Synth 8-3332] Sequential element (nolabel_line33/nolabel_line19/nolabe
 WARNING: [Synth 8-3332] Sequential element (nolabel_line33/nolabel_line19/nolabel_line50/out_reg[5]) is unused and will be removed from module Game.
 WARNING: [Synth 8-3332] Sequential element (nolabel_line33/nolabel_line19/nolabel_line50/out_reg[6]) is unused and will be removed from module Game.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 997.105 ; gain = 363.711
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 997.441 ; gain = 366.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -530,13 +530,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1016.781 ; gain = 383.387
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1018.961 ; gain = 388.055
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1051.602 ; gain = 418.207
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1053.484 ; gain = 422.578
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -548,7 +548,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1059.652 ; gain = 426.258
+Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1061.398 ; gain = 430.492
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -572,7 +572,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1065.422 ; gain = 432.027
+Finished IO Insertion : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1067.078 ; gain = 436.172
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -585,7 +585,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1065.422 ; gain = 432.027
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1067.078 ; gain = 436.172
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -597,25 +597,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1065.422 ; gain = 432.027
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1067.078 ; gain = 436.172
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1065.422 ; gain = 432.027
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1067.078 ; gain = 436.172
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1065.422 ; gain = 432.027
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1067.078 ; gain = 436.172
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1065.422 ; gain = 432.027
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1067.078 ; gain = 436.172
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -634,15 +634,15 @@ Report Cell Usage:
 |1     |BUFG    |     1|
 |2     |CARRY4  |    80|
 |3     |DSP48E1 |     1|
-|4     |LUT1    |    12|
-|5     |LUT2    |    36|
-|6     |LUT3    |    34|
-|7     |LUT4    |    87|
-|8     |LUT5    |    74|
-|9     |LUT6    |    70|
-|10    |FDCE    |    17|
+|4     |LUT1    |    13|
+|5     |LUT2    |    30|
+|6     |LUT3    |    35|
+|7     |LUT4    |    88|
+|8     |LUT5    |    71|
+|9     |LUT6    |    68|
+|10    |FDCE    |    36|
 |11    |FDPE    |     1|
-|12    |FDRE    |   213|
+|12    |FDRE    |   194|
 |13    |FDSE    |    20|
 |14    |LD      |     1|
 |15    |LDC     |     1|
@@ -654,40 +654,40 @@ Report Instance Areas:
 +------+---------------------+-----------------------------+------+
 |      |Instance             |Module                       |Cells |
 +------+---------------------+-----------------------------+------+
-|1     |top                  |                             |   690|
-|2     |  nolabel_line13     |Random_Number_Gen            |    44|
-|3     |    nolabel_line10   |Random_Number_Generator_FMSD |    40|
-|4     |    nolabel_line9    |RisingEdge                   |     4|
+|1     |top                  |                             |   682|
+|2     |  nolabel_line13     |Random_Number_Gen            |    43|
+|3     |    nolabel_line10   |Random_Number_Generator_FMSD |    36|
+|4     |    nolabel_line9    |RisingEdge                   |     7|
 |5     |  nolabel_line20     |ClkSignal1Hz                 |    53|
 |6     |  nolabel_line21     |ClkSignalSlow                |    52|
 |7     |  nolabel_line22     |ClkSignal2Hz                 |    52|
 |8     |  nolabel_line23     |ClkSignal400Hz               |    52|
-|9     |  nolabel_line26     |Timer                        |    84|
-|10    |    nolabel_line10   |DigitalClock                 |    76|
-|11    |      nolabel_line10 |timecounter                  |    39|
-|12    |      nolabel_line11 |timecounter_0                |    37|
-|13    |    nolabel_line11   |AlarmHandler                 |     4|
-|14    |    nolabel_line9    |LoadCheck                    |     4|
-|15    |  nolabel_line33     |SevenSegOutputHandler        |    26|
-|16    |    nolabel_line15   |counter3bit                  |    26|
-|17    |  nolabel_line44     |Game1                        |    30|
-|18    |  nolabel_line45     |Game2                        |    66|
-|19    |  nolabel_line47     |Game_FSM                     |    15|
-|20    |  nolabel_line51     |GameOverSongPlayer           |   171|
-|21    |  nolabel_line52     |AudioHandler                 |     2|
+|9     |  nolabel_line26     |Timer                        |    81|
+|10    |    nolabel_line10   |DigitalClock                 |    72|
+|11    |      nolabel_line10 |timecounter                  |    36|
+|12    |      nolabel_line11 |timecounter_0                |    36|
+|13    |    nolabel_line11   |AlarmHandler                 |     3|
+|14    |    nolabel_line9    |LoadCheck                    |     6|
+|15    |  nolabel_line33     |SevenSegOutputHandler        |    27|
+|16    |    nolabel_line15   |counter3bit                  |    27|
+|17    |  nolabel_line44     |Game1                        |    29|
+|18    |  nolabel_line45     |Game2                        |    62|
+|19    |  nolabel_line48     |Game_FSM                     |    15|
+|20    |  nolabel_line52     |GameOverSongPlayer           |   171|
+|21    |  nolabel_line53     |AudioHandler                 |     2|
 +------+---------------------+-----------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1065.422 ; gain = 432.027
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1067.078 ; gain = 436.172
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 41 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:40 . Memory (MB): peak = 1065.422 ; gain = 289.371
-Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1065.422 ; gain = 432.027
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:39 . Memory (MB): peak = 1067.078 ; gain = 292.629
+Synthesis Optimization Complete : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1067.078 ; gain = 436.172
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 83 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1080.145 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1083.180 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   LD => LDCE: 1 instances
@@ -696,10 +696,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 77 Infos, 63 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 1080.145 ; gain = 725.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1080.145 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 1083.180 ; gain = 730.391
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1083.180 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/Vking/Desktop/School/ECE3300L/Bomb_Diffusal/Bomb_Diffusal.runs/synth_1/Game.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.runs/synth_1/Game.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Game_utilization_synth.rpt -pb Game_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Apr 30 11:09:06 2022...
+INFO: [Common 17-206] Exiting Vivado at Mon May  2 14:30:25 2022...
