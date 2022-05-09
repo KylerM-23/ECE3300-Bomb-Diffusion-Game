@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon May  9 08:34:39 2022
+# Process ID: 22816
+# Current directory: C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.runs/impl_1
+# Command line: vivado.exe -log Game.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Game.tcl -notrace
+# Log file: C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.runs/impl_1/Game.vdi
+# Journal file: C:/Users/Vking/Desktop/Verilog-Final-Project/Bomb_Diffusal/Bomb_Diffusal.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Game.tcl -notrace

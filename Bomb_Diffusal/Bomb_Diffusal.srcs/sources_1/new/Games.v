@@ -4,7 +4,7 @@ module Game1(
     input clk, enable, reset,
     input [5:0] in, Random,
     output reg [5:0] out,
-    output reg win
+    output reg win, correct
     );
     reg Game;
     reg [2:0] Wins;    
@@ -16,12 +16,13 @@ module Game1(
                     win = 0;
                     Game = 0;
                     Wins = 0;
+                    correct = 0;
                 end
                 
             if (enable == 1 && win == 0)
                 if (in == out && Game == 1)
                     begin
-                        out = 'b111111;
+                        correct = 1;
                         Wins = Wins + 1;
                         if (Wins == 5)
                             win = 1;
@@ -31,14 +32,19 @@ module Game1(
                         out = Random;
                         win = 0;
                         Game = 1;
+                        correct = 0;
                     end
             else if (enable == 1 && win == 1)
-                out = 0;
+                begin
+                    out = 0;
+                    correct = 0;
+                end
             else
                 begin
                     out = 0;
                     win = 0;
                     Game = 0;
+                    correct = 0;
                 end
         end
 endmodule
@@ -55,7 +61,7 @@ module Game2(
         begin
             if (reset)
                 begin
-                    code = 7'b11111111;
+                    code = 7'b1111111;
                     user = 7'b1111111;
                     win = 0;
                     Game = 0;

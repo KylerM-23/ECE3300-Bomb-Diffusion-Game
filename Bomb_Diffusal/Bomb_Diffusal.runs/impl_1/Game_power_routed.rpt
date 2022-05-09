@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date             : Mon May  2 14:32:18 2022
+| Date             : Mon May  9 09:18:32 2022
 | Host             : DESKTOP-L16NRCS running 64-bit major release  (build 9200)
 | Command          : report_power -file Game_power_routed.rpt -pb Game_power_summary_routed.pb -rpx Game_power_routed.rpx
 | Design           : Game
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.131        |
+| Total On-Chip Power (W)  | 0.132        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.034        |
+| Dynamic (W)              | 0.035        |
 | Device Static (W)        | 0.097        |
 | Effective TJA (C/W)      | 4.6          |
 | Max Ambient (C)          | 84.4         |
@@ -52,17 +52,17 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Clocks         |     0.002 |        3 |       --- |             --- |
-| Slice Logic    |     0.002 |      670 |       --- |             --- |
-|   LUT as Logic |     0.001 |      223 |     63400 |            0.35 |
-|   CARRY4       |    <0.001 |       80 |     15850 |            0.50 |
-|   Register     |    <0.001 |      253 |    126800 |            0.20 |
-|   Others       |     0.000 |       33 |       --- |             --- |
-| Signals        |     0.002 |      644 |       --- |             --- |
-| DSPs           |    <0.001 |        1 |       240 |            0.42 |
+| Clocks         |     0.003 |        3 |       --- |             --- |
+| Slice Logic    |     0.002 |     1114 |       --- |             --- |
+|   LUT as Logic |     0.002 |      387 |     63400 |            0.61 |
+|   CARRY4       |    <0.001 |      128 |     15850 |            0.81 |
+|   Register     |    <0.001 |      398 |    126800 |            0.31 |
+|   Others       |     0.000 |       40 |       --- |             --- |
+| Signals        |     0.002 |     1000 |       --- |             --- |
+| DSPs           |    <0.001 |        3 |       240 |            1.25 |
 | I/O            |     0.028 |       42 |       210 |           20.00 |
 | Static Power   |     0.097 |          |           |                 |
-| Total          |     0.131 |          |           |                 |
+| Total          |     0.132 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -72,7 +72,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.021 |       0.006 |      0.015 |
+| Vccint    |       1.000 |     0.022 |       0.007 |      0.015 |
 | Vccaux    |       1.800 |     0.019 |       0.001 |      0.018 |
 | Vcco33    |       3.300 |     0.012 |       0.008 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -141,10 +141,10 @@ Table of Contents
 +--------------------+-----------+
 | Name               | Power (W) |
 +--------------------+-----------+
-| Game               |     0.034 |
-|   nolabel_line26   |     0.001 |
-|     nolabel_line10 |     0.001 |
-|   nolabel_line52   |     0.001 |
+| Game               |     0.035 |
+|   nolabel_line54   |     0.002 |
+|     nolabel_line73 |     0.002 |
+|   nolabel_line59   |     0.001 |
 +--------------------+-----------+
 
 

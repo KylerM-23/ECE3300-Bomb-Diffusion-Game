@@ -79,25 +79,6 @@ module Mux8(x1,x2,x3,x4,x5,x6,x7,x8, S, out);
         end
 endmodule
 
-module Mux7Seg4(x1,x2,x3, S, oVr, out);
-    input [0:6] x1, x2, x3;
-    input [1:0] S;
-    output reg oVr;
-    output reg [0:6] out;
-    
-    always @(x1,x2,x3,S)
-        begin
-            out = 0;
-            oVr = 0;
-            case (S)
-                0: oVr = 1; 
-                1: out = x2;
-                2: oVr = 1;
-                default: oVr = 1;
-            endcase
-        end
-endmodule
-
 module counter3bit(Clk, out);
     input Clk;
     output reg [2:0] out;
@@ -109,13 +90,14 @@ module counter3bit(Clk, out);
 endmodule
 
 module Decoder_2_4(enable, data, out);
-    input [1:0] data;
+    input [2:0] data;
     input enable;
     output reg [3:0] out;
     always @(data, enable)
         begin
             out = 0;
             if (enable)
-                out[data] = 1;
+                if (data < 4)
+                    out[data] = 1;
         end
 endmodule

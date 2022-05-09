@@ -83,11 +83,11 @@ module GameOverSongPlayer( input clock, input playSound, output reg audioOut, ou
                 if(number == 4) 
                     begin
                         number <=0; // Make the number reset at the end of the song
-                        plays = plays + 1;
+                        plays <= plays + 1;
                     end
             end
       end	
              
-      always @(duration) noteTime = duration * clockFrequency/16; 
+      always @(duration) noteTime <= duration * clockFrequency/16; 
            //number of   FPGA clock periods in one note.
 endmodule   

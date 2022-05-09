@@ -22,13 +22,18 @@ module SevenSegOutputHandler(Clk400Hz, Right_1, Right_0, D5, D4, Cathode, Anode)
     
 endmodule
 
-module AudioHandler(clk, GO,GW, AP_1, AP_0, ASD_1, ASD_0, Audio_pwm, Audio_sd);
-    input clk, GO, GW, AP_1, AP_0, ASD_1, ASD_0;
+module AudioHandler(G3, GO,GW, AP_2, AP_1, AP_0, ASD_2, ASD_1, ASD_0, Audio_pwm, Audio_sd);
+    input G3, GO, GW, AP_2, AP_1, AP_0, ASD_2, ASD_1, ASD_0;
     output reg Audio_pwm, Audio_sd;
     
-    always @ (posedge clk)
+    always @ (*)
         begin
-            if (GO)
+            if (G3)
+                begin
+                    Audio_pwm = AP_2;
+                    Audio_sd = ASD_2;
+                end
+            else if (GO)
                 begin
                     Audio_pwm = AP_1;
                     Audio_sd = ASD_1;

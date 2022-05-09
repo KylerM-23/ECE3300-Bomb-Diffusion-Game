@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Mon May  2 14:30:25 2022
+| Date         : Mon May  9 09:16:31 2022
 | Host         : DESKTOP-L16NRCS running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Game_utilization_synth.rpt -pb Game_utilization_synth.pb
 | Design       : Game
@@ -30,12 +30,12 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| Slice LUTs*             |  224 |     0 |     63400 |  0.35 |
-|   LUT as Logic          |  224 |     0 |     63400 |  0.35 |
+| Slice LUTs*             |  388 |     0 |     63400 |  0.61 |
+|   LUT as Logic          |  388 |     0 |     63400 |  0.61 |
 |   LUT as Memory         |    0 |     0 |     19000 |  0.00 |
-| Slice Registers         |  253 |     0 |    126800 |  0.20 |
-|   Register as Flip Flop |  251 |     0 |    126800 |  0.20 |
-|   Register as Latch     |    2 |     0 |    126800 | <0.01 |
+| Slice Registers         |  398 |     0 |    126800 |  0.31 |
+|   Register as Flip Flop |  395 |     0 |    126800 |  0.31 |
+|   Register as Latch     |    3 |     0 |    126800 | <0.01 |
 | F7 Muxes                |    0 |     0 |     31700 |  0.00 |
 | F8 Muxes                |    0 |     0 |     15850 |  0.00 |
 +-------------------------+------+-------+-----------+-------+
@@ -54,10 +54,10 @@ Table of Contents
 | 0     |            _ |         Set |            - |
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
-| 1     |          Yes |           - |          Set |
-| 38    |          Yes |           - |        Reset |
-| 20    |          Yes |         Set |            - |
-| 194   |          Yes |       Reset |            - |
+| 4     |          Yes |           - |          Set |
+| 113   |          Yes |           - |        Reset |
+| 14    |          Yes |         Set |            - |
+| 267   |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -80,8 +80,8 @@ Table of Contents
 +----------------+------+-------+-----------+-------+
 |    Site Type   | Used | Fixed | Available | Util% |
 +----------------+------+-------+-----------+-------+
-| DSPs           |    1 |     0 |       240 |  0.42 |
-|   DSP48E1 only |    1 |       |           |       |
+| DSPs           |    3 |     0 |       240 |  1.25 |
+|   DSP48E1 only |    3 |       |           |       |
 +----------------+------+-------+-----------+-------+
 
 
@@ -147,21 +147,21 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     |  194 |        Flop & Latch |
-| LUT4     |   88 |                 LUT |
-| CARRY4   |   80 |          CarryLogic |
-| LUT5     |   71 |                 LUT |
-| LUT6     |   68 |                 LUT |
-| FDCE     |   36 |        Flop & Latch |
-| LUT3     |   35 |                 LUT |
-| LUT2     |   30 |                 LUT |
+| FDRE     |  267 |        Flop & Latch |
+| LUT4     |  204 |                 LUT |
+| CARRY4   |  128 |          CarryLogic |
+| LUT5     |  116 |                 LUT |
+| FDCE     |  110 |        Flop & Latch |
+| LUT3     |   81 |                 LUT |
+| LUT6     |   77 |                 LUT |
+| LUT2     |   54 |                 LUT |
 | OBUF     |   28 |                  IO |
-| FDSE     |   20 |        Flop & Latch |
+| LUT1     |   16 |                 LUT |
 | IBUF     |   14 |                  IO |
-| LUT1     |   13 |                 LUT |
-| LDCE     |    2 |        Flop & Latch |
-| FDPE     |    1 |        Flop & Latch |
-| DSP48E1  |    1 |    Block Arithmetic |
+| FDSE     |   14 |        Flop & Latch |
+| FDPE     |    4 |        Flop & Latch |
+| LDCE     |    3 |        Flop & Latch |
+| DSP48E1  |    3 |    Block Arithmetic |
 | BUFG     |    1 |               Clock |
 +----------+------+---------------------+
 

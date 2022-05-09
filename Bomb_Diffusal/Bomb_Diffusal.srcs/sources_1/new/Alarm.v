@@ -6,7 +6,7 @@ module AlarmHandler(Clk, CMin, CSec, AMin,ASec, En, Sn, Signal);
     output reg Signal;
     reg active;
     
-    always @ (posedge Clk)
+    always @ (posedge Clk, posedge Sn)
         begin
             if (Sn)
                 begin

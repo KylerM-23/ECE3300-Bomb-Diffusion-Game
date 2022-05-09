@@ -26,7 +26,7 @@ module Random_Number_Generator_FMSD (clk, r, num, num_reg, In, R);
     reg [5:0] seed_reg;
     reg [5:0] seed_next;
     reg bit;
-    
+    reg sent;
     output reg R;
     reg ready_next;
     

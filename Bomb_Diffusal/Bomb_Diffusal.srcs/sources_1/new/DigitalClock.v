@@ -7,8 +7,8 @@ module DigitalClock(Clk1Hz,L, R, SCount, MCount, En);
     wire ClkMin;
     wire [5:0] MCount, SCount;
     
-    timecounter(Clk1Hz & En, L, 0, R, SCount, ClkMin);
-    timecounter(ClkMin & En, L, 2, R, MCount);
+    timecounter(Clk1Hz & En, L, 20, R, SCount, ClkMin);
+    timecounter(ClkMin & En, L, 1, R, MCount);
 
 endmodule
 
@@ -22,21 +22,21 @@ module timecounter( Clk, L, LoadValue, Reset, Count, OutClock);
         begin
             if (L)
                 begin
-                    Count = LoadValue;
+                    Count <= LoadValue;
                 end
             else if (Reset)
-                Count = 0;
+                Count <= 0;
             else
                 begin
                     if (Count == 0)
                         begin
-                            Count  = 59;
-                            OutClock = 1;
+                            Count <= 59;
+                            OutClock <= 1;
                         end
                     else
                         begin
-                            Count = Count - 1;
-                            OutClock = 0;
+                            Count <= Count - 1;
+                            OutClock <= 0;
                         end
                 end
         end
