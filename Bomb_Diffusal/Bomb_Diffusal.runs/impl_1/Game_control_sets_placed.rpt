@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Mon May  9 09:17:46 2022
+| Date         : Thu May 12 20:38:22 2022
 | Host         : DESKTOP-L16NRCS running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file Game_control_sets_placed.rpt
 | Design       : Game
@@ -23,11 +23,11 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Total control sets                                       |    36 |
-|    Minimum number of control sets                        |    36 |
+| Total control sets                                       |    35 |
+|    Minimum number of control sets                        |    35 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |   162 |
+| Unused register locations in slices containing registers |   163 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -39,11 +39,11 @@ Table of Contents
 +--------------------+-------+
 |       Fanout       | Count |
 +--------------------+-------+
-| Total control sets |    36 |
-| >= 0 to < 4        |    11 |
+| Total control sets |    35 |
+| >= 0 to < 4        |    10 |
 | >= 4 to < 6        |     7 |
-| >= 6 to < 8        |     5 |
-| >= 8 to < 10       |     1 |
+| >= 6 to < 8        |     4 |
+| >= 8 to < 10       |     2 |
 | >= 10 to < 12      |     2 |
 | >= 12 to < 14      |     1 |
 | >= 14 to < 16      |     0 |
@@ -58,12 +58,12 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              21 |           12 |
-| No           | No                    | Yes                    |              93 |           34 |
-| No           | Yes                   | No                     |             135 |           45 |
-| Yes          | No                    | No                     |               4 |            2 |
-| Yes          | No                    | Yes                    |              21 |           10 |
-| Yes          | Yes                   | No                     |             124 |           33 |
+| No           | No                    | No                     |              14 |            9 |
+| No           | No                    | Yes                    |             109 |           36 |
+| No           | Yes                   | No                     |             114 |           33 |
+| Yes          | No                    | No                     |               4 |            1 |
+| Yes          | No                    | Yes                    |              32 |           13 |
+| Yes          | Yes                   | No                     |             124 |           35 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
@@ -74,41 +74,40 @@ Table of Contents
 |               Clock Signal               |                           Enable Signal                           |            Set/Reset Signal            | Slice Load Count | Bel Load Count |
 +------------------------------------------+-------------------------------------------------------------------+----------------------------------------+------------------+----------------+
 |  nolabel_line39/outsignal_reg_0          |                                                                   | RESET_IBUF                             |                1 |              1 |
-|  nolabel_line36/nolabel_line10/Clk0      |                                                                   | nolabel_line44/nolabel_line8/Load      |                1 |              1 |
-|  nolabel_line36/nolabel_line10/Clk0      |                                                                   | nolabel_line44/nolabel_line8/out_reg_1 |                1 |              1 |
 |  nolabel_line36/nolabel_line10/Clk00_out |                                                                   |                                        |                1 |              1 |
 | ~nolabel_line44/nolabel_line10/GameOver  |                                                                   |                                        |                1 |              1 |
 |  CLK100MHZ_IBUF_BUFG                     | nolabel_line54/nolabel_line73/start_note_i_1_n_0                  | nolabel_line56/AR[0]                   |                1 |              1 |
+|  nolabel_line36/nolabel_line10/Clk0      |                                                                   | nolabel_line44/nolabel_line8/Load      |                1 |              2 |
+|  nolabel_line36/nolabel_line10/Clk0      |                                                                   | nolabel_line44/nolabel_line8/out_reg_1 |                1 |              2 |
 |  nolabel_line36/nolabel_line10/Clk00_out |                                                                   | nolabel_line44/nolabel_line8/Load      |                1 |              2 |
 |  nolabel_line36/nolabel_line10/Clk00_out |                                                                   | nolabel_line44/nolabel_line8/out_reg_1 |                1 |              2 |
-|  nolabel_line44/nolabel_line8/Load       |                                                                   | nolabel_line44/nolabel_line8/out_reg_1 |                2 |              2 |
-|  nolabel_line40/CLKSLOW                  |                                                                   |                                        |                2 |              2 |
-|  nolabel_line42/CLK                      |                                                                   |                                        |                1 |              3 |
-|  CLK100MHZ_IBUF_BUFG                     | nolabel_line54/nolabel_line73/number[3]_i_1_n_0                   | nolabel_line56/AR[0]                   |                4 |              4 |
-|  CLK100MHZ_IBUF_BUFG                     |                                                                   | RESETCLK_IBUF                          |                4 |              4 |
+|  nolabel_line44/nolabel_line8/Load       |                                                                   | nolabel_line44/nolabel_line8/out_reg_1 |                1 |              2 |
+|  nolabel_line42/CLK                      |                                                                   |                                        |                3 |              3 |
+|  nolabel_line36/nolabel_line10/Clk0      |                                                                   | nolabel_line44/nolabel_line8/out_reg_0 |                1 |              4 |
 |  nolabel_line36/nolabel_line10/Clk00_out |                                                                   | nolabel_line44/nolabel_line8/out_reg_0 |                2 |              4 |
-|  CLK100MHZ_IBUF_BUFG                     | nolabel_line56/E[0]                                               |                                        |                2 |              4 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                                   | RESETCLK_IBUF                          |                4 |              4 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line54/nolabel_line73/number[3]_i_1_n_0                   | nolabel_line56/AR[0]                   |                3 |              4 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line56/E[0]                                               |                                        |                1 |              4 |
 |  CLK100MHZ_IBUF_BUFG                     | nolabel_line36/nolabel_line10/E[0]                                | RESET_IBUF                             |                1 |              4 |
-|  nolabel_line41/CLK2HZ                   |                                                                   |                                        |                2 |              5 |
-|  nolabel_line36/nolabel_line10/Clk0      |                                                                   | nolabel_line44/nolabel_line8/out_reg_0 |                2 |              5 |
-|  CLK100MHZ_IBUF_BUFG                     | nolabel_line36/nolabel_line10/seed_next                           | RESET_IBUF                             |                2 |              6 |
+|  nolabel_line40/CLK                      | nolabel_line53/code[6]_i_1_n_0                                    | RESET_IBUF                             |                2 |              5 |
+|  nolabel_line41/CLK2HZ                   |                                                                   | RESET_IBUF                             |                3 |              6 |
+|  nolabel_line41/CLK2HZ                   | nolabel_line52/out[5]_i_1_n_0                                     | RESET_IBUF                             |                3 |              6 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line36/nolabel_line10/seed_next                           | RESET_IBUF                             |                1 |              6 |
 |  CLK100MHZ_IBUF_BUFG                     | nolabel_line36/nolabel_line9/FSM_sequential_state_reg_reg[0]_0[0] | RESET_IBUF                             |                2 |              6 |
-|  nolabel_line40/CLKSLOW                  |                                                                   | nolabel_line53/user[6]_i_1_n_0         |                3 |              7 |
-|  nolabel_line41/CLK2HZ                   |                                                                   | nolabel_line52/out[5]_i_1_n_0          |                4 |              7 |
-|  nolabel_line40/CLKSLOW                  |                                                                   | nolabel_line53/code[6]_i_1_n_0         |                4 |              7 |
-|  CLK100MHZ_IBUF_BUFG                     |                                                                   |                                        |                5 |              9 |
-|  CLK100MHZ_IBUF_BUFG                     | nolabel_line59/number[9]_i_1__0_n_0                               | nolabel_line44/nolabel_line10/SR[0]    |                3 |             10 |
+|  nolabel_line40/CLK                      |                                                                   | RESET_IBUF                             |                5 |              9 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                                   |                                        |                4 |              9 |
 |  CLK100MHZ_IBUF_BUFG                     | nolabel_line60/number[9]_i_2__0_n_0                               | nolabel_line56/win_reg_0[0]            |                4 |             10 |
-|  CLK100MHZ_IBUF_BUFG                     |                                                                   | RESET_IBUF                             |                6 |             12 |
-|  CLK100MHZ_IBUF_BUFG                     | nolabel_line59/time1[0]_i_2__0_n_0                                | nolabel_line59/counter[0]_i_1__5_n_0   |                5 |             20 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line59/number[9]_i_1__0_n_0                               | nolabel_line44/nolabel_line10/SR[0]    |                5 |             10 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                                   | RESET_IBUF                             |                7 |             12 |
 |  CLK100MHZ_IBUF_BUFG                     | nolabel_line60/time1[0]_i_2_n_0                                   | nolabel_line60/counter[0]_i_1__4_n_0   |                5 |             20 |
-|  CLK100MHZ_IBUF_BUFG                     |                                                                   | nolabel_line40/counter[0]_i_1__0_n_0   |                7 |             27 |
-|  CLK100MHZ_IBUF_BUFG                     |                                                                   | nolabel_line42/counter[0]_i_1__2_n_0   |                7 |             27 |
-|  CLK100MHZ_IBUF_BUFG                     |                                                                   | nolabel_line41/counter[0]_i_1__1_n_0   |                7 |             27 |
+|  CLK100MHZ_IBUF_BUFG                     | nolabel_line59/time1[0]_i_2__0_n_0                                | nolabel_line59/counter[0]_i_1__5_n_0   |                5 |             20 |
 |  CLK100MHZ_IBUF_BUFG                     |                                                                   | nolabel_line39/counter[0]_i_1_n_0      |                7 |             27 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                                   | nolabel_line41/counter[0]_i_1__1_n_0   |                7 |             27 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                                   | nolabel_line42/counter[0]_i_1__2_n_0   |                7 |             27 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                                   | nolabel_line40/counter[0]_i_1__0_n_0   |                7 |             27 |
 |  CLK100MHZ_IBUF_BUFG                     | nolabel_line60/time1[0]_i_2_n_0                                   | nolabel_line60/time1[0]_i_1__0_n_0     |                8 |             32 |
 |  CLK100MHZ_IBUF_BUFG                     | nolabel_line59/time1[0]_i_2__0_n_0                                | nolabel_line59/time1[0]_i_1__1_n_0     |                8 |             32 |
-|  CLK100MHZ_IBUF_BUFG                     |                                                                   | nolabel_line56/AR[0]                   |               19 |             65 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                                   | nolabel_line56/AR[0]                   |               13 |             65 |
 +------------------------------------------+-------------------------------------------------------------------+----------------------------------------+------------------+----------------+
 
 

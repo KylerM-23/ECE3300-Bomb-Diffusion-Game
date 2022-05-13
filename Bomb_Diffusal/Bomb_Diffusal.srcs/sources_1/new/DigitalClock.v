@@ -8,7 +8,7 @@ module DigitalClock(Clk1Hz,L, R, SCount, MCount, En);
     wire [5:0] MCount, SCount;
     
     timecounter(Clk1Hz & En, L, 20, R, SCount, ClkMin);
-    timecounter(ClkMin & En, L, 1, R, MCount);
+    timecounter(ClkMin & En, L, 3, R, MCount);
 
 endmodule
 

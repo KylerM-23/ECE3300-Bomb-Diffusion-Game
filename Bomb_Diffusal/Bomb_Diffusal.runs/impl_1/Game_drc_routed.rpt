@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Mon May  9 09:18:30 2022
+| Date         : Thu May 12 20:39:06 2022
 | Host         : DESKTOP-L16NRCS running 64-bit major release  (build 9200)
 | Command      : report_drc -file Game_drc_routed.rpt -pb Game_drc_routed.pb -rpx Game_drc_routed.rpx
 | Design       : Game
@@ -119,8 +119,8 @@ Related violations: <none>
 
 PLHOLDVIO-2#2 Warning
 Non-Optimal connections which could lead to hold violations  
-A LUT nolabel_line36/nolabel_line10/Count[5]_i_2__0 is driving clock pin of 7 cells. This could lead to large hold time violations. Involved cells are:
-nolabel_line44/nolabel_line9/nolabel_line11/Count_reg[0]_C, nolabel_line44/nolabel_line9/nolabel_line11/Count_reg[0]_P, nolabel_line44/nolabel_line9/nolabel_line11/Count_reg[1], nolabel_line44/nolabel_line9/nolabel_line11/Count_reg[2], nolabel_line44/nolabel_line9/nolabel_line11/Count_reg[3], nolabel_line44/nolabel_line9/nolabel_line11/Count_reg[4], nolabel_line44/nolabel_line9/nolabel_line11/Count_reg[5]
+A LUT nolabel_line36/nolabel_line10/Count[5]_i_2__0 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+nolabel_line44/nolabel_line9/nolabel_line11/Count_reg[0]_C, nolabel_line44/nolabel_line9/nolabel_line11/Count_reg[0]_P, nolabel_line44/nolabel_line9/nolabel_line11/Count_reg[1]_C, nolabel_line44/nolabel_line9/nolabel_line11/Count_reg[1]_P, nolabel_line44/nolabel_line9/nolabel_line11/Count_reg[2], nolabel_line44/nolabel_line9/nolabel_line11/Count_reg[3], nolabel_line44/nolabel_line9/nolabel_line11/Count_reg[4], nolabel_line44/nolabel_line9/nolabel_line11/Count_reg[5]
 Related violations: <none>
 
 PLHOLDVIO-2#3 Warning

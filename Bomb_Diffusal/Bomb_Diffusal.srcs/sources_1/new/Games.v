@@ -8,7 +8,7 @@ module Game1(
     );
     reg Game;
     reg [2:0] Wins;    
-    always @(posedge clk)
+    always @(posedge clk, posedge reset)
         begin
             if (reset)
                 begin
@@ -19,13 +19,16 @@ module Game1(
                     correct = 0;
                 end
                 
-            if (enable == 1 && win == 0)
-                if (in == out && Game == 1)
+            else if (enable == 1 && win == 0)
+                if (in == out && Game == 1 && correct == 0)
                     begin
                         correct = 1;
                         Wins = Wins + 1;
                         if (Wins == 5)
-                            win = 1;
+                            begin
+                                win = 1;
+                                Wins = 0;
+                            end
                     end
                 else
                     begin
@@ -57,7 +60,7 @@ module Game2(
     );
     reg Game;
       
-    always @(posedge clk)
+    always @(posedge clk, posedge reset)
         begin
             if (reset)
                 begin
@@ -67,7 +70,7 @@ module Game2(
                     Game = 0;
                 end
                 
-            if (enable == 1 && win == 0)
+            else if (enable == 1 && win == 0)
                 begin
                     if(in[0])
                         user = user >> 1;

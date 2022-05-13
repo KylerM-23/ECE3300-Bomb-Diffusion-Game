@@ -30,7 +30,7 @@ module Game(
         wire [2:0] GWin;
         wire [3:0] GameEnable;
         wire Ready, GameWin, GameOver;
-        wire AP_2, AP_1, AP_0, ASD_1, ASD_0, ASD_2;
+        wire AP_2, AP_0, AP_1, ASD_1, ASD_0, ASD_2;
     
     //Random Num    
         Random_Number_Gen(CLK100MHZ, RESET, START_BUTTON, GameConfig, Random,Ready);
